@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head profile="http://www.w3.org/2005/10/profile"> <!--TODO-->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Clínica Dental Dra. Romínguez</title>
+
+    <link rel="icon" type="image/png" href="fotos/xurxo_circ.png"> <!--TODO-->
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+    <div class="navbar-fixed" style="position: fixed;">
+        <nav class="" role="navigation" style="background-color: rgba(255, 255, 255, 1); box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.2)">
+            <div class="nav-wrapper container">
+                <!--<a style="font-family: Penny Script;font-size: 3rem;" id="logo-container" href="#" class="brand-logo">Clínica Dental Dra. Romínguez</a>-->
+                <a style="" id="logo-container" href="index.html" class="brand-logo">LOGO</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="clinica.html">Clínica</a></li>
+                    <li><a href="tratamientos.html">Tratamientos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+
+                <ul id="nav-mobile" class="sidenav">
+                    <li>
+                        <div class="user-view">
+                            <div class="background">
+                                <img src="fotos/fondo.jpg">
+                            </div>
+                            <a href="#user"><img class="circle" src="fotos/xurxo.jpg"></a>
+                            <a href="#name"><span class="white-text name">Clínica Dental Dra. Romínguez</span></a>
+                            <a href="#email"><span class="white-text email">clinicadradominguez@gmail.com</span></a>
+                        </div>
+                    </li>
+                    <li><a href="index.html"><i class="material-icons">home</i>Inicio</a></li>
+                    <li>
+                        <a class="waves-effect" href="clinica.html">
+                            <i class="material-icons">home_work</i>
+                                Clínica
+                        </a>
+                    </li>
+                    <li>
+                        <a class="waves-effect" href="tratamientos.html">
+                            <i class="material-icons">child_care</i>
+                                Tratamientos
+                        </a>
+                    </li>
+                    <li>
+                        <a class="waves-effect" href="contacto.html">
+                            <i class="material-icons">contact_mail</i>
+                                Contacto
+                        </a>
+                    </li>
+                </ul>
+                <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            </div>
+        </nav>
+    </div>
+    
+    <div class="container" id="contacto" style="padding-top: 100px;">
+        <div class="section scrollspy" id="contacto">
+
+            <div class="row">
+                <div class="col s12 center">
+                    <!-- <img class="circle" style="width:25%" src="fotos/xurxo.jpg"> -->
+                    <img class="circle" style="width:25%" src="fotos/hero1.jpg">
+                    <h4><i class="mdi-content-send brown-text"></i></h4>
+                    <h5>Contáctanos</h5>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <form action="https://formspree.io/clinicadradominguez@gmail.com" method="POST"> <!--TODO-->
+                <div class="input-field col s12">
+                    <input id="email" type="email" class="validate" name="email">
+                    <label for="email">Email</label>
+                    <span class="helper-text" data-error="Correo no válido" data-success="Correo correcto">Introduce
+                        aquí tu correo electrónico</span>
+                </div>
+                <div class="input-field col s12">
+                    <textarea id="text" type="text" class="materialize-textarea" name="message"></textarea>
+                    <label for="text">Cuerpo del mensaje</label>
+                    <span class="helper-text">Introduce aquí lo que me quieras enviar</span>
+                </div>
+                <button class="btn waves-effect waves-light"
+                    style="margin: 20px auto;width: 100%;background-color:#053c56;" type="submit" name="action">Enviar
+                    <i class="material-icons right">send</i>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <div style="position: relative;">
+        <div class="abs">
+            <p>¿DÓNDE ESTAMOS?</p>
+            
+            <ul>
+                <li>               
+                    <a href="https://www.google.es/maps/place/Cl%C3%ADnica+dental+Friedlander+Barcelona/@41.400942,2.1521623,17z/data=!3m1!4b1!4m5!3m4!1s0x12a4a2961c97b4a7:0xcba06f3046d2fc19!8m2!3d41.400942!4d2.154351" target="_blank">
+                        Rúa Teixugueiras 36, Entreplanta 8, 
+                        Navia. 36212 Vigo 
+                    </a>
+                </li>
+                <li>
+                    <a href="tel:986 113 455" onclick="gtag('event', 'TELEFONO_FIJO', {'event_category': 'telefonoFijo', 'event_action': 'clic', 'event_label': 'contacto'});">986 113 455</a>&nbsp;-&nbsp;<a href="tel:605 290 036" onclick="gtag('event', 'TELEFONO_MOVIL', {'event_category': 'telefonoMovil', 'event_action': 'clic', 'event_label': 'contacto'});">605 290 036</a>
+                </li>
+                <li>
+                    <a href="mailto:clinicadradominguez@gmail.com" onclick="gtag('event', 'EMAIL', {'event_category': 'email', 'event_action': 'clic', 'event_label': 'contacto'});">clinicadradominguez@gmail.com
+                    </a>
+                </li>
+                <li>                
+                    Lunes de 9:00 a 14:00 y de 17:00 a 20:00. Martes de 9:30 a 13:00. Miércoles de 9:00 a 14:00 y de 16:30 a 19:30. <br>
+                    Jueves de 16:00 a 20:00. Viernes de 9:30 a 16:00.
+                </li>
+            </ul>
+        </div>
+
+        <iframe width="100%" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-8.76462757587433%2C42.20481481321503%2C-8.754113316535951%2C42.20977774797196&amp;layer=mapnik&amp;marker=42.20729535947396%2C-8.759370814223075" style="border: 0px solid black"></iframe><small></small>
+    </div>
+</body>
+
+   
+
+<footer style="background-color: #ffffff!important;" class="page-footer teal">
+    <div class="container section scrollspy" id="tercero">
+        <div class="row">
+            <div class="col l12 s12">
+                <h5 style="color: rgba(0, 0, 0, 0.87);">¡Gracias!</h5>
+                <p style="color: rgba(0, 0, 0, 0.50);">Gracias por visitar nuestra web, Os esperamos en nuestra clínica. Si quieres alguna otra información no dudes en usar la sección de contacto.</p>
+
+
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container" style="color: rgba(0, 0, 0, 0.50);">
+            Página web escrita por <a style="color:#053c56 !important" href="https://devtr.es">DevTR</a>
+        </div>
+    </div>
+</footer>
+
+<!--  Scripts-->
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/materialize.js"></script>
+<script src="js/init.js"></script>
+
+</html>
