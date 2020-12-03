@@ -21,6 +21,11 @@
     color: white;
 }
 
+.colorAccent {
+	background: #039be5!important;
+	color: #039be5;
+}
+
 nav ul a,
 nav .brand-logo {
   color: #053c56;
