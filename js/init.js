@@ -1,4 +1,4 @@
- (function($){
+(function($){
   $(function(){
     
     $('.sidenav').sidenav();
@@ -7,7 +7,7 @@
     $('.scrollspy').scrollSpy();
     $('.tooltipped').tooltip();
 
-    calulateHeaderOpacity()
+    //calulateHeaderOpacity()
 
     $(window).scroll(function(){ 
       calulateHeaderOpacity()
@@ -41,3 +41,8 @@ const run = () => items.forEach(item => {
 window.addEventListener('load', run);
 window.addEventListener('resize', run);
 window.addEventListener('scroll', run);
+
+$(document).ready(function(){
+
+  $('.parallax').parallax();
+});
